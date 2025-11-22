@@ -36,6 +36,9 @@ async def on_message(message):
     if message.author == bot.user:
         return
     
+    if message.author.bot:
+        return
+    
     if message.guild and hasattr(message.channel, 'name'):
         channel_name = message.channel.name.lower()
         
