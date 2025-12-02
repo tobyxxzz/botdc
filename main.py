@@ -68,7 +68,7 @@ async def on_message(message):
     elif conteudo == 'aura':
         resposta_aura = (
             'aura 1 👉 https://www.roblox.com/game-pass/1612964554/Unlock-Script-Aura-1\n'
-            'aura 2 (opcional mas recomendado) 👉 https://www.roblox.com/game-pass/1612964554/Unlock-Script-Aura-1\n'
+            'aura 2 (opcional mas recomendado) 👉 https://www.roblox.com/game-pass/1614434301/Aura-2\n'
             'aura 3 (opcional mas recomendado) 👉 https://www.roblox.com/game-pass/1613270490/Aura-3\n'
         )
         await message.channel.send(resposta_aura)
