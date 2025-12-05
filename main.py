@@ -63,7 +63,7 @@ async def on_message(message):
     conteudo = message.content.lower()
     
     if conteudo == 'script':
-        await message.channel.send('script 👉 `loadstring(game:HttpGet("https://pastebin.com/raw/jykKMDPK"))()`')
+        await message.channel.send('script 👇 `loadstring(game:HttpGet("https://pastebin.com/raw/B8h0DqhR"))()`')
     
     elif conteudo == 'aura':
         resposta_aura = (
